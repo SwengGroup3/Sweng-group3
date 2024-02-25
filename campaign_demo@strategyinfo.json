@@ -1,0 +1,31 @@
+{
+    "options": {
+        "schema": "campaign_demo",
+        "table": "strategyinfo",
+        "columns": [
+            "customer_id",
+            "account_activated_state",
+            "improvedkpi",
+            "keyword_label",
+            "owner_name",
+            "paid_marketing"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "customer_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

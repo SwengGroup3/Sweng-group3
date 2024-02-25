@@ -1,0 +1,20 @@
+{
+    "end": "2024-02-25 09:07:54",
+    "dataBytes": 0,
+    "tableDataBytes": {
+        "campaign_demo": {
+            "taskstat": 0,
+            "goalinfo": 0,
+            "strategyinfo": 0,
+            "taskinfo": 0,
+            "goalstat": 0
+        }
+    },
+    "chunkFileBytes": {
+        "campaign_demo@taskstat@@0.tsv.zst": 0,
+        "campaign_demo@goalinfo@@0.tsv.zst": 0,
+        "campaign_demo@strategyinfo@@0.tsv.zst": 0,
+        "campaign_demo@taskinfo@@0.tsv.zst": 0,
+        "campaign_demo@goalstat@@0.tsv.zst": 0
+    }
+}

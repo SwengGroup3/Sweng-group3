@@ -1,0 +1,33 @@
+{
+    "options": {
+        "schema": "campaign_demo",
+        "table": "taskinfo",
+        "columns": [
+            "customer_id",
+            "account_activated_state",
+            "complete_date",
+            "create_date",
+            "due_date",
+            "task_description",
+            "task_state",
+            "task_name"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "customer_id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

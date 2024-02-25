@@ -1,0 +1,24 @@
+{
+    "schema": "campaign_demo",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "taskstat",
+        "goalinfo",
+        "goalstat",
+        "taskinfo",
+        "strategyinfo"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "taskstat": "campaign_demo@taskstat",
+        "goalinfo": "campaign_demo@goalinfo",
+        "goalstat": "campaign_demo@goalstat",
+        "taskinfo": "campaign_demo@taskinfo",
+        "strategyinfo": "campaign_demo@strategyinfo"
+    }
+}
