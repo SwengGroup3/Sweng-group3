@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import TextInput from './TextInput';
 import CheckboxGroup from './CheckBox';
@@ -6,6 +6,23 @@ import CountryDropdown from './Dropdown';
 import FinishButton from './FinishButton';
 
  const CreationPage = () => {
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        async function fetchData() {
+            try{
+                const response = await fetch();
+                const data = await response.json();
+                setData(data);
+                console.log(data);
+            }
+            catch (error) {
+                console.error(error);
+            }
+        }
+        fetchData();
+    }, []);
 
     //function to use saved text
     const handleSave = (checkedItems) => {
