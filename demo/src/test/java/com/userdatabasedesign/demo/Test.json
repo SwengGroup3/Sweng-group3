@@ -1,0 +1,40 @@
+{
+    "users":[
+    {
+        "userName": "Mike",
+        "password": "farm1990M0O",
+        "passwordSalt": "f1nd1ngd0ry",
+        "passwordHash": "6b3745605be417d612c691d744e0f5a5b13321b8",
+        "emailAddress": "mike123@google.com",
+        "emailValidationId": 329776,
+        "company": "Google",
+        "department": "risk management",
+        "tokenGenerationDate": "2024-02-25T12:00:05",
+        "registerDate": "2024-02-25T12:01:05",
+        "lastLoginDate": "2024-02-27T12:00:00",
+        "lastPasswordDate": "2024-02-27T11:59:44",
+        "accountState": 1,
+        "passwordRecovereryToken": "Of1jd1xgw0rs",
+        "recoveryTokenTime": "2024-02-22T09:40:44"
+    }
+    ,
+    {
+        "userName": "Bob",
+        "password": "farm1990M0O",
+        "passwordSalt": "f2ns9nbd0ky",
+        "passwordHash": "4db5ec120066075dde7bcc3cf0d94d5d73f5fa3b",
+        "emailAddress": "Bob123@outlook.ie",
+        "emailValidationId": 123994,
+        "company": "Microsoft",
+        "department": "strategy design",
+        "tokenGenerationDate": "2024-02-25T12:00:05",
+        "registerDate": "2024-02-25T12:01:05",
+        "lastLoginDate": "2024-02-27T12:00:00",
+        "lastPasswordDate": "2024-02-27T11:59:44",
+        "accountState": 1,
+        "passwordRecovereryToken": "al2xd7mgw0qp",
+        "recoveryTokenTime": "2024-02-22T09:40:44"
+    }
+]
+}
+
